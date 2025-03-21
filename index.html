@@ -86,7 +86,8 @@
 </body>
 <script>
     const tbody = document.getElementById("tbody");
-    setTable(itemList);
+    let list = itemList;
+    setTable(list);
 
     function setTable(itemList) {
         tbody.textContent = "";
@@ -98,7 +99,7 @@
                 if (item[column] !== undefined) {
                     if (column === 'img') {
                         let img = document.createElement('img')
-                        img.setAttribute('src', item[column])
+                        img.src = item[column]
                         td.appendChild(img)
                     }
                     else if (column === 'duration') {
@@ -115,30 +116,6 @@
                     }
                 }
                 else {
-                    // if (column === 'ability') {
-                    //     let h = document.createElement('span');
-                    //     let s = document.createElement('span');
-                    //     let e = document.createElement('span');
-                    //     h.setAttribute('class', 'ability')
-                    //     s.setAttribute('class', 'ability')
-                    //     e.setAttribute('class', 'ability')
-                    //     if (color === 'red') {
-                    //         h.setAttribute('style', 'color: ' + color)
-                    //     }
-                    //     else if (color === 'yellow') {
-                    //         s.setAttribute('style', 'color: ' + color)
-                    //     }
-                    //     else if (color === 'blue') {
-                    //         e.setAttribute('style', 'color: ' + color)
-                    //     }
-                    //     h.innerText = item.health;
-                    //     td.appendChild(h)
-                    //     s.innerText = item.stamina;
-                    //     td.appendChild(s)
-                    //     e.innerText = item.eitr;
-                    //     td.appendChild(e)
-    
-                    // }
                     if (column === 'recipe') {
                         recipeList.map((rItem, rIndex) => {
                             if (rItem.food_id === item.id) {
@@ -156,7 +133,14 @@
     }
 
     function sort(e) {
-        console.log(e.lastChild.ATTRIBUTE_NODE)
+        const sortType = e.lastChild.ATTRIBUTE_NODE;
+        console.log(sortType)
+        // list.sort(function(a, b) {
+        //     var nameA = a.name.toUpperCase(); // ignore upper and lowercase
+        //     var nameB = b.name.toUpperCase(); // ignore upper and lowercase
+        //     return nameA - nameB;
+        // });
+        // setTable(list)
     }
     
 </script>
