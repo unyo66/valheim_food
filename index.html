@@ -98,8 +98,7 @@
                 if (item[column] !== undefined) {
                     if (column === 'img') {
                         let img = document.createElement('img')
-                        // img.setAttribute('src', item[column])
-                        img.setAttribute('src', decodeURIComponent(item[column].replace(/\\\//g, '/')))
+                        img.setAttribute('src', item[column])
                         td.appendChild(img)
                     }
                     else if (column === 'duration') {
