@@ -20,12 +20,11 @@
             justify-content: center;
         }
         content {
-            padding: 20px;
             display: flex;
             justify-content: center;
         }
         table {
-            width: 60%;
+            width: 100%;
         }
         th {
             text-align: left;
@@ -62,26 +61,26 @@
     </style>
 </head>
 <body id="body-light">
-    <header>
+    <!-- <header>
         <h1>
             발헤임 음식
         </h1>
-    </header>
+    </header> -->
+    <table id="table">
+        <thead>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_img">그림</div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_name">이름<div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_type">포크<div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_health">체력<div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_stamina">스테<div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_eitr">에트<div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_recipe">재료</div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_duration">지속<div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_biome">바이옴</div></th>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
     <content>
-        <table id="table">
-            <thead>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_img">그림</div></th>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_name">이름<div class="icon icon_updown"></div></div></th>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_type">포크<div class="icon icon_updown"></div></div></th>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_health">체력<div class="icon icon_updown"></div></div></th>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_stamina">스테<div class="icon icon_updown"></div></div></th>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_eitr">에트<div class="icon icon_updown"></div></div></th>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_recipe">재료</div></th>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_duration">지속<div class="icon icon_updown"></div></div></th>
-                <th><div onclick="sort(this)" class="inner_th" id="inner_th_biome">바이옴</div></th>
-            </thead>
-            <tbody id="tbody"></tbody>
-        </table>
     </content>
 </body>
 <script>
@@ -131,17 +130,6 @@
             tbody.appendChild(tr)
         });
     }
-
-    // function sort(e) {
-    //     const sortType = e.lastChild.ATTRIBUTE_NODE;
-    //     console.log(sortType)
-    //     list.sort(function(a, b) {
-    //         var nameA = a.name.toUpperCase(); // ignore upper and lowercase
-    //         var nameB = b.name.toUpperCase(); // ignore upper and lowercase
-    //         return nameA - nameB;
-    //     });
-    //     setTable(list)
-    // }
 
     let currentSortColumn = null;
     let currentSortDirection = -1; // 🔽 처음엔 내림차순
