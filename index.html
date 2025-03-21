@@ -132,16 +132,66 @@
         });
     }
 
+    // function sort(e) {
+    //     const sortType = e.lastChild.ATTRIBUTE_NODE;
+    //     console.log(sortType)
+    //     list.sort(function(a, b) {
+    //         var nameA = a.name.toUpperCase(); // ignore upper and lowercase
+    //         var nameB = b.name.toUpperCase(); // ignore upper and lowercase
+    //         return nameA - nameB;
+    //     });
+    //     setTable(list)
+    // }
+
+    let currentSortColumn = null;
+    let currentSortDirection = -1; // 🔽 처음엔 내림차순
+
     function sort(e) {
-        const sortType = e.lastChild.ATTRIBUTE_NODE;
-        console.log(sortType)
-        // list.sort(function(a, b) {
-        //     var nameA = a.name.toUpperCase(); // ignore upper and lowercase
-        //     var nameB = b.name.toUpperCase(); // ignore upper and lowercase
-        //     return nameA - nameB;
-        // });
-        // setTable(list)
+        const columnId = e.id.replace("inner_th_", "");
+
+        // 정렬 방향 토글
+        if (currentSortColumn === columnId) {
+            currentSortDirection *= -1;
+        } else {
+            currentSortColumn = columnId;
+            currentSortDirection = -1; // 🔽 새 컬럼 클릭 시에도 내림차순부터
+        }
+
+        // 정렬 수행
+        list.sort((a, b) => {
+            const valA = a[columnId];
+            const valB = b[columnId];
+
+            if (valA === undefined) return 1;
+            if (valB === undefined) return -1;
+
+            if (typeof valA === "number" && typeof valB === "number") {
+                return (valA - valB) * currentSortDirection;
+            } else {
+                return valA.toString().localeCompare(valB.toString(), 'ko') * currentSortDirection;
+            }
+        });
+
+        // 모든 아이콘 초기화
+        document.querySelectorAll('.inner_th .icon').forEach(icon => {
+            icon.classList.remove('icon_up', 'icon_down');
+            icon.classList.add('icon_updown');
+        });
+
+        // 현재 클릭한 헤더 아이콘 갱신
+        const iconDiv = e.querySelector('.icon');
+        if (iconDiv) {
+            iconDiv.classList.remove('icon_updown');
+            if (currentSortDirection === 1) {
+                iconDiv.classList.add('icon_up');
+            } else {
+                iconDiv.classList.add('icon_down');
+            }
+        }
+
+        setTable(list);
     }
-    
+
+
 </script>
 </html>
