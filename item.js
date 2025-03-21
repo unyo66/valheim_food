@@ -14,7 +14,7 @@ itemList =
         "biome" : "목초지",
         "station" : "Cooking station",
         "eng_name" : "Grilled neck tail",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/0\/06\/Grilled_neck_tail.png\/revision\/latest?cb=20210215131743"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/0/06/Grilled_neck_tail.png/revision/latest?cb=20210215131743"
     },
     {
         "id" : 2,
@@ -30,7 +30,7 @@ itemList =
         "biome" : "목초지",
         "station" : "Cooking station",
         "eng_name" : "Cooked boar meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/0\/01\/Cooked_boar_meat.png\/revision\/latest?cb=20211222210540"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/0/01/Cooked_boar_meat.png/revision/latest?cb=20211222210540"
     },
     {
         "id" : 3,
@@ -46,7 +46,7 @@ itemList =
         "biome" : "목초지",
         "station" : "Cooking station",
         "eng_name" : "Cooked deer meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/b\/bc\/Cooked_deer_meat.png\/revision\/latest?cb=20210922034153"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/b/bc/Cooked_deer_meat.png/revision/latest?cb=20210922034153"
     },
     {
         "id" : 4,
@@ -62,7 +62,7 @@ itemList =
         "biome" : "검은숲",
         "station" : "가마솥 [1]",
         "eng_name" : "Boar jerky",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/1\/14\/Boar_jerky.png\/revision\/latest?cb=20210927004543"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/1/14/Boar_jerky.png/revision/latest?cb=20210927004543"
     },
     {
         "id" : 5,
@@ -78,7 +78,7 @@ itemList =
         "biome" : "검은숲",
         "station" : "가마솥 [1]",
         "eng_name" : "Minced meat sauce",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/4\/4d\/Minced_meat_sauce.png\/revision\/latest?cb=20210922034153"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/4/4d/Minced_meat_sauce.png/revision/latest?cb=20210922034153"
     },
     {
         "id" : 6,
@@ -94,7 +94,7 @@ itemList =
         "biome" : "검은숲",
         "station" : "가마솥 [1]",
         "eng_name" : "Queen's jam",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/5\/5a\/Queen%27s_jam.png\/revision\/latest?cb=20210215131812"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/5/5a/Queen%27s_jam.png/revision/latest?cb=20210215131812"
     },
     {
         "id" : 7,
@@ -110,7 +110,7 @@ itemList =
         "biome" : "검은숲",
         "station" : "가마솥 [1]",
         "eng_name" : "Carrot soup",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/0\/00\/Carrot_soup.png\/revision\/latest?cb=20210215131443"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/0/00/Carrot_soup.png/revision/latest?cb=20210215131443"
     },
     {
         "id" : 8,
@@ -126,7 +126,7 @@ itemList =
         "biome" : "검은숲",
         "station" : "가마솥 [1]",
         "eng_name" : "Deer stew",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/b\/bf\/Deerstew.png\/revision\/latest?cb=20210922034153"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/b/bf/Deerstew.png/revision/latest?cb=20210922034153"
     },
     {
         "id" : 9,
@@ -142,7 +142,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "Cooking station",
         "eng_name" : "Cooked fish",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/1\/16\/Cooked_fish.png\/revision\/latest?cb=20210215131603"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/1/16/Cooked_fish.png/revision/latest?cb=20210215131603"
     },
     {
         "id" : 10,
@@ -158,7 +158,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "가마솥 [2]",
         "eng_name" : "Muckshake",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/1\/1d\/Shocklatesmoothie.png\/revision\/latest?cb=20210922034153"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/1/1d/Shocklatesmoothie.png/revision/latest?cb=20210922034153"
     },
     {
         "id" : 11,
@@ -174,7 +174,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "가마솥 [2]",
         "eng_name" : "Turnip stew",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/f\/fd\/Turnip_stew.png\/revision\/latest?cb=20210212175937"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/f/fd/Turnip_stew.png/revision/latest?cb=20210212175937"
     },
     {
         "id" : 12,
@@ -190,7 +190,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "가마솥 [2]",
         "eng_name" : "Sausages",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/a\/a0\/Sausages.png\/revision\/latest?cb=20210215131836"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/a/a0/Sausages.png/revision/latest?cb=20210215131836"
     },
     {
         "id" : 13,
@@ -206,7 +206,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "가마솥 [2]",
         "eng_name" : "Black soup",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/e\/e6\/BlackSoup.png\/revision\/latest?cb=20210922034152"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/e/e6/BlackSoup.png/revision/latest?cb=20210922034152"
     },
     {
         "id" : 14,
@@ -222,7 +222,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "Food preparation table",
         "eng_name" : "Whole roasted Meadow boar",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/c\/c7\/Whole_roasted_Meadow_boar.png\/revision\/latest?cb=20241019120434"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/c/c7/Whole_roasted_Meadow_boar.png/revision/latest?cb=20241019120434"
     },
     {
         "id" : 15,
@@ -238,7 +238,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "Food preparation table",
         "eng_name" : "Black Forest buffet platter",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/d\/df\/Black_Forest_buffet_platter.png\/revision\/latest?cb=20241019120544"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/d/df/Black_Forest_buffet_platter.png/revision/latest?cb=20241019120544"
     },
     {
         "id" : 16,
@@ -254,7 +254,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "Food preparation table",
         "eng_name" : "Swamp dweller's delight",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/d\/d9\/Swamp_dweller%27s_delight.png\/revision\/latest?cb=20241019120609"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/d/d9/Swamp_dweller%27s_delight.png/revision/latest?cb=20241019120609"
     },
     {
         "id" : 17,
@@ -270,7 +270,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "Iron cooking station",
         "eng_name" : "Cooked serpent meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/c\/c1\/Cooked_serpent_meat.png\/revision\/latest?cb=20210215131841"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/c/c1/Cooked_serpent_meat.png/revision/latest?cb=20210215131841"
     },
     {
         "id" : 18,
@@ -286,7 +286,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "가마솥 [2]",
         "eng_name" : "Serpent stew",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/5\/55\/Serpent_stew.png\/revision\/latest?cb=20210215131844"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/5/55/Serpent_stew.png/revision/latest?cb=20210215131844"
     },
     {
         "id" : 19,
@@ -302,7 +302,7 @@ itemList =
         "biome" : "늪지대",
         "station" : "Food preparation table",
         "eng_name" : "Sailor's bounty",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/9\/94\/Sailor%27s_bounty.png\/revision\/latest?cb=20241019134010"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/9/94/Sailor%27s_bounty.png/revision/latest?cb=20241019134010"
     },
     {
         "id" : 20,
@@ -318,7 +318,7 @@ itemList =
         "biome" : "산",
         "station" : "가마솥 [3]",
         "eng_name" : "Onion soup",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/7\/72\/OnionSoup.png\/revision\/latest?cb=20210922034153"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/7/72/OnionSoup.png/revision/latest?cb=20210922034153"
     },
     {
         "id" : 21,
@@ -334,7 +334,7 @@ itemList =
         "biome" : "산",
         "station" : "Cooking station",
         "eng_name" : "Cooked wolf meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/d\/dc\/Cooked_wolf_meat.png\/revision\/latest?cb=20210928173121"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/d/dc/Cooked_wolf_meat.png/revision/latest?cb=20210928173121"
     },
     {
         "id" : 22,
@@ -350,7 +350,7 @@ itemList =
         "biome" : "산",
         "station" : "가마솥 [3]",
         "eng_name" : "Wolf jerky",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/3\/30\/Wolf_jerky.png\/revision\/latest?cb=20210922034153"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/3/30/Wolf_jerky.png/revision/latest?cb=20210922034153"
     },
     {
         "id" : 23,
@@ -366,7 +366,7 @@ itemList =
         "biome" : "산",
         "station" : "가마솥 [3]",
         "eng_name" : "Wolf skewer",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/d\/d7\/Wolf_skewer.png\/revision\/latest?cb=20210922034153"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/d/d7/Wolf_skewer.png/revision/latest?cb=20210922034153"
     },
     {
         "id" : 24,
@@ -382,7 +382,7 @@ itemList =
         "biome" : "산",
         "station" : "가마솥 [3]",
         "eng_name" : "Eyescream",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/9\/90\/Eyescream.png\/revision\/latest?cb=20210922034153"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/9/90/Eyescream.png/revision/latest?cb=20210922034153"
     },
     {
         "id" : 25,
@@ -398,7 +398,7 @@ itemList =
         "biome" : "산",
         "station" : "Food preparation table",
         "eng_name" : "Hearty Mountain logger's stew",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/a\/a0\/Hearty_Mountain_logger%27s_stew.png\/revision\/latest?cb=20241019134031"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/a/a0/Hearty_Mountain_logger%27s_stew.png/revision/latest?cb=20241019134031"
     },
     {
         "id" : 26,
@@ -414,7 +414,7 @@ itemList =
         "biome" : "평원",
         "station" : "Iron cooking station",
         "eng_name" : "Cooked lox meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/4\/40\/Cooked_lox_meat.png\/revision\/latest?cb=20210215131722"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/4/40/Cooked_lox_meat.png/revision/latest?cb=20210215131722"
     },
     {
         "id" : 27,
@@ -430,7 +430,7 @@ itemList =
         "biome" : "평원",
         "station" : "가마솥 [4]",
         "eng_name" : "Fish wraps",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/b\/b5\/Fish_wraps.png\/revision\/latest?cb=20210215131607"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/b/b5/Fish_wraps.png/revision/latest?cb=20210215131607"
     },
     {
         "id" : 28,
@@ -446,7 +446,7 @@ itemList =
         "biome" : "평원",
         "station" : "Food preparation table",
         "eng_name" : "Lox meat pie",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/5\/5e\/Lox_meat_pie.png\/revision\/latest?cb=20210215131724"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/5/5e/Lox_meat_pie.png/revision/latest?cb=20210215131724"
     },
     {
         "id" : 29,
@@ -462,7 +462,7 @@ itemList =
         "biome" : "평원",
         "station" : "가마솥 [4]",
         "eng_name" : "Blood pudding",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/2\/28\/Blood_pudding.png\/revision\/latest?cb=20210215131359"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/2/28/Blood_pudding.png/revision/latest?cb=20210215131359"
     },
     {
         "id" : 30,
@@ -478,7 +478,7 @@ itemList =
         "biome" : "평원",
         "station" : "Food preparation table",
         "eng_name" : "Bread",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/e\/e1\/Bread.png\/revision\/latest?cb=20210215131421"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/e/e1/Bread.png/revision/latest?cb=20210215131421"
     },
     {
         "id" : 31,
@@ -494,7 +494,7 @@ itemList =
         "biome" : "평원",
         "station" : "Food preparation table",
         "eng_name" : "Plains pie picnic",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/2\/21\/Plains_pie_picnic.png\/revision\/latest?cb=20241019134111"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/2/21/Plains_pie_picnic.png/revision/latest?cb=20241019134111"
     },
     {
         "id" : 32,
@@ -510,7 +510,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "가마솥 [1]",
         "eng_name" : "Cooked egg",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/a\/ae\/Cooked_egg.png\/revision\/latest?cb=20221130075934"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/a/ae/Cooked_egg.png/revision/latest?cb=20221130075934"
     },
     {
         "id" : 33,
@@ -526,7 +526,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Iron cooking station",
         "eng_name" : "Cooked seeker meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/5\/5c\/Cooked_seeker_meat.png\/revision\/latest?cb=20221130105204"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/5/5c/Cooked_seeker_meat.png/revision/latest?cb=20221130105204"
     },
     {
         "id" : 34,
@@ -542,7 +542,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Iron cooking station",
         "eng_name" : "Cooked hare meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/2\/2b\/Cooked_hare_meat.png\/revision\/latest?cb=20221130140344"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/2/2b/Cooked_hare_meat.png/revision/latest?cb=20221130140344"
     },
     {
         "id" : 35,
@@ -558,7 +558,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Iron cooking station",
         "eng_name" : "Cooked chicken meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/4\/4a\/Cooked_chicken_meat.png\/revision\/latest?cb=20221130104358"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/4/4a/Cooked_chicken_meat.png/revision/latest?cb=20221130104358"
     },
     {
         "id" : 36,
@@ -574,7 +574,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Food preparation table",
         "eng_name" : "Meat platter",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/8\/85\/Meat_platter.png\/revision\/latest?cb=20221125173026"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/8/85/Meat_platter.png/revision/latest?cb=20221125173026"
     },
     {
         "id" : 37,
@@ -590,7 +590,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Food preparation table",
         "eng_name" : "Honey glazed chicken",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/9\/9f\/Honey_glazed_chicken.png\/revision\/latest?cb=20221209094423"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/9/9f/Honey_glazed_chicken.png/revision/latest?cb=20221209094423"
     },
     {
         "id" : 38,
@@ -606,7 +606,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Food preparation table",
         "eng_name" : "Misthare supreme",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/a\/a1\/Misthare_supreme.png\/revision\/latest?cb=20221125173027"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/a/a1/Misthare_supreme.png/revision/latest?cb=20221125173027"
     },
     {
         "id" : 39,
@@ -622,7 +622,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "가마솥 [5]",
         "eng_name" : "Salad",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/7\/7e\/Salad.png\/revision\/latest?cb=20221125173029"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/7/7e/Salad.png/revision/latest?cb=20221125173029"
     },
     {
         "id" : 40,
@@ -638,7 +638,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "가마솥 [5]",
         "eng_name" : "Mushroom omelette",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/7\/7b\/Mushroom_omelette.png\/revision\/latest?cb=20221125173028"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/7/7b/Mushroom_omelette.png/revision/latest?cb=20221125173028"
     },
     {
         "id" : 41,
@@ -654,7 +654,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Food preparation table",
         "eng_name" : "Fish 'n' bread",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/2\/2c\/Fish_%27n%27_bread.png\/revision\/latest?cb=20221130101653"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/2/2c/Fish_%27n%27_bread.png/revision/latest?cb=20221130101653"
     },
     {
         "id" : 42,
@@ -670,7 +670,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Food preparation table",
         "eng_name" : "Stuffed mushroom",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/7\/75\/Stuffed_mushroom.png\/revision\/latest?cb=20221125173031"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/7/75/Stuffed_mushroom.png/revision/latest?cb=20221125173031"
     },
     {
         "id" : 43,
@@ -686,7 +686,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "가마솥 [5]",
         "eng_name" : "Yggdrasil porridge",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/e\/e1\/Yggdrasil_porridge.png\/revision\/latest?cb=20221125173034"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/e/e1/Yggdrasil_porridge.png/revision/latest?cb=20221125173034"
     },
     {
         "id" : 44,
@@ -702,7 +702,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "가마솥 [5]",
         "eng_name" : "Seeker aspic",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/1\/1a\/Seeker_aspic.png\/revision\/latest?cb=20221125173030"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/1/1a/Seeker_aspic.png/revision/latest?cb=20221125173030"
     },
     {
         "id" : 45,
@@ -718,7 +718,7 @@ itemList =
         "biome" : "안개지대",
         "station" : "Food preparation table",
         "eng_name" : "Mushrooms galore á la Mistlands",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/f\/f3\/Mushrooms_galore_%C3%A1_la_Mistlands.png\/revision\/latest?cb=20241019134321"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/f/f3/Mushrooms_galore_%C3%A1_la_Mistlands.png/revision/latest?cb=20241019134321"
     },
     {
         "id" : 46,
@@ -734,7 +734,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "Iron cooking station",
         "eng_name" : "Cooked asksvin tail",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/c\/ce\/Cooked_asksvin_tail.png\/revision\/latest?cb=20240423111445"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/c/ce/Cooked_asksvin_tail.png/revision/latest?cb=20240423111445"
     },
     {
         "id" : 47,
@@ -750,7 +750,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "Iron cooking station",
         "eng_name" : "Cooked volture meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/3\/30\/Cooked_volture_meat.png\/revision\/latest?cb=20240423111702"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/3/30/Cooked_volture_meat.png/revision/latest?cb=20240423111702"
     },
     {
         "id" : 48,
@@ -766,7 +766,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "Iron cooking station",
         "eng_name" : "Cooked bonemaw meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/b\/b6\/Cooked_bonemaw_meat.png\/revision\/latest?cb=20240423111538"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/b/b6/Cooked_bonemaw_meat.png/revision/latest?cb=20240423111538"
     },
     {
         "id" : 49,
@@ -782,7 +782,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "가마솥 [5]",
         "eng_name" : "Fiery svinstew",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/9\/90\/Fiery_svinstew.png\/revision\/latest?cb=20240423123219"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/9/90/Fiery_svinstew.png/revision/latest?cb=20240423123219"
     },
     {
         "id" : 50,
@@ -798,7 +798,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "가마솥 [6]",
         "eng_name" : "Mashed meat",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/4\/47\/Mashed_meat.png\/revision\/latest?cb=20240423124050"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/4/47/Mashed_meat.png/revision/latest?cb=20240423124050"
     },
     {
         "id" : 51,
@@ -814,7 +814,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "Food preparation table",
         "eng_name" : "Piquant pie",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/b\/b5\/Piquant_pie.png\/revision\/latest?cb=20240423130343"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/b/b5/Piquant_pie.png/revision/latest?cb=20240423130343"
     },
     {
         "id" : 52,
@@ -830,7 +830,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "가마솥 [5]",
         "eng_name" : "Spicy marmalade",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/e\/e2\/Spicy_marmalade.png\/revision\/latest?cb=20240423132525"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/e/e2/Spicy_marmalade.png/revision/latest?cb=20240423132525"
     },
     {
         "id" : 53,
@@ -846,7 +846,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "가마솥 [6]",
         "eng_name" : "Scorching medley",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/3\/30\/Scorching_medley.png\/revision\/latest?cb=20240423131728"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/3/30/Scorching_medley.png/revision/latest?cb=20240423131728"
     },
     {
         "id" : 54,
@@ -862,7 +862,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "Food preparation table",
         "eng_name" : "Roasted crust pie",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/f\/f4\/Roasted_crust_pie.png\/revision\/latest?cb=20240423131035"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/f/f4/Roasted_crust_pie.png/revision/latest?cb=20240423131035"
     },
     {
         "id" : 55,
@@ -878,7 +878,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "가마솥 [5]",
         "eng_name" : "Sizzling berry broth",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/7\/7d\/Sizzling_berry_broth.png\/revision\/latest?cb=20240423132358"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/7/7d/Sizzling_berry_broth.png/revision/latest?cb=20240423132358"
     },
     {
         "id" : 56,
@@ -894,7 +894,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "가마솥 [6]",
         "eng_name" : "Sparkling shroomshake",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/a\/ac\/Sparkling_shroomshake.png\/revision\/latest?cb=20240423132441"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/a/ac/Sparkling_shroomshake.png/revision/latest?cb=20240423132441"
     },
     {
         "id" : 57,
@@ -910,7 +910,7 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "가마솥 [6]",
         "eng_name" : "Marinated greens",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/4\/4d\/Marinated_greens.png\/revision\/latest?cb=20240423124019"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/4/4d/Marinated_greens.png/revision/latest?cb=20240423124019"
     },
     {
         "id" : 58,
@@ -926,6 +926,6 @@ itemList =
         "biome" : "잿가루지대",
         "station" : "Food preparation table",
         "eng_name" : "Ashlands gourmet bowl",
-        "img" : "https:\/\/static.wikia.nocookie.net\/valheim\/images\/2\/28\/Ashlands_gourmet_bowl.png\/revision\/latest?cb=20241019134340"
+        "img" : "https://static.wikia.nocookie.net/valheim/images/2/28/Ashlands_gourmet_bowl.png/revision/latest?cb=20241019134340"
     }
 ]
