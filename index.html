@@ -97,9 +97,10 @@
                 let td = document.createElement('td');
                 if (item[column] !== undefined) {
                     if (column === 'img') {
-                        let a = document.createElement('img')
-                        a.setAttribute('src', item[column])
-                        td.appendChild(a)
+                        let img = document.createElement('img')
+                        // img.setAttribute('src', item[column])
+                        img.setAttribute('src', decodeURIComponent(item[column].replace(/\\\//g, '/')))
+                        td.appendChild(img)
                     }
                     else if (column === 'duration') {
                         td.innerText = item[column] + "분";
