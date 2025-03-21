@@ -8,6 +8,25 @@
     <script src="recipe.js" type="text/javascript"></script>
     <script src="config.js" type="text/javascript"></script>
     <style>
+        @media (max-width: 768px) {
+            body {
+                font-size: 10px;
+            }
+            table {
+                width: 100%;
+            }
+            .inner_text {
+                writing-mode: vertical-lr;
+            }
+            .icon {
+                width: 16px;
+                height: 16px;
+            }
+            img {
+                max-width: 30px;
+            }
+        }
+
         body {
             margin: 0;
             transition: all 0.3s;
@@ -68,15 +87,15 @@
     </header> -->
     <table id="table">
         <thead>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_img">그림</div></th>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_name">이름<div class="icon icon_updown"></div></div></th>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_type">포크<div class="icon icon_updown"></div></div></th>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_health">체력<div class="icon icon_updown"></div></div></th>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_stamina">스테<div class="icon icon_updown"></div></div></th>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_eitr">에트<div class="icon icon_updown"></div></div></th>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_recipe">재료</div></th>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_duration">지속<div class="icon icon_updown"></div></div></th>
-            <th><div onclick="sort(this)" class="inner_th" id="inner_th_biome">바이옴</div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_img"><div class="inner_text">그림</div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_name"><div class="inner_text">이름</div><div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_type"><div class="inner_text">포크</div><div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_health"><div class="inner_text">체력</div><div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_stamina"><div class="inner_text">스테</div><div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_eitr"><div class="inner_text">에트</div><div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_recipe"><div class="inner_text">재료</div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_duration"><div class="inner_text">지속</div><div class="icon icon_updown"></div></div></th>
+            <th><div onclick="sort(this)" class="inner_th" id="inner_th_biome"><div class="inner_text">바이옴</div></div></th>
         </thead>
         <tbody id="tbody"></tbody>
     </table>
