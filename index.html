@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valheim Foods</title>
+    <script src="item.js" type="text/javascript"></script>
+    <script src="recipe.js" type="text/javascript"></script>
+    <script src="config.js" type="text/javascript"></script>
+    <style>
+        body {
+            margin: 0;
+            transition: all 0.3s;
+        }
+        header {
+            width: 100%;
+            height: 100px;
+            background: #ddd;
+            display: flex;
+            justify-content: center;
+        }
+        content {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            width: 60%;
+        }
+        th {
+            text-align: left;
+        }
+        .inner_th {
+            display: flex;
+        }
+        td {
+            background-color: #ddd;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+        .inner_th {
+            cursor: pointer;
+        }
+        .inner_th:hover {
+            opacity: 0.7;
+        }
+        .icon {
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .icon_updown {
+            background-image: url(img/updown.png);
+        }
+        .icon_up {
+            background-image: url(img/up.png);
+        }
+        .icon_down {
+            background-image: url(img/down.png);
+        }
+    </style>
+</head>
+<body id="body-light">
+    <header>
+        <h1>
+            발헤임 음식
+        </h1>
+    </header>
+    <content>
+        <table id="table">
+            <thead>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_img">그림</div></th>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_name">이름<div class="icon icon_updown"></div></div></th>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_type">포크<div class="icon icon_updown"></div></div></th>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_health">체력<div class="icon icon_updown"></div></div></th>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_stamina">스테<div class="icon icon_updown"></div></div></th>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_eitr">에트<div class="icon icon_updown"></div></div></th>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_recipe">재료</div></th>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_duration">지속<div class="icon icon_updown"></div></div></th>
+                <th><div onclick="sort(this)" class="inner_th" id="inner_th_biome">바이옴</div></th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </content>
+</body>
+<script>
+    const tbody = document.getElementById("tbody");
+    setTable(itemList);
+
+    function setTable(itemList) {
+        tbody.textContent = "";
+        itemList.forEach((item, index) => {
+            let tr = document.createElement('tr');
+            let color = item.type.toLocaleLowerCase();
+            for (const column of configList) {
+                let td = document.createElement('td');
+                if (item[column] !== undefined) {
+                    if (column === 'img') {
+                        let a = document.createElement('img')
+                        a.setAttribute('src', item[column])
+                        td.appendChild(a)
+                    }
+                    else if (column === 'duration') {
+                        td.innerText = item[column] + "분";
+                    }
+                    else {
+                        if (column === 'type') {
+                            td.setAttribute('style', 'color: ' + color)
+                        }
+                        else if ((column === 'health' && color === 'red') || (column === 'stamina' && color === 'yellow') || (column === 'eitr' && color === 'blue')) {
+                            td.setAttribute('style', 'color: ' + color)
+                        }
+                        td.innerText = item[column];
+                    }
+                }
+                else {
+                    // if (column === 'ability') {
+                    //     let h = document.createElement('span');
+                    //     let s = document.createElement('span');
+                    //     let e = document.createElement('span');
+                    //     h.setAttribute('class', 'ability')
+                    //     s.setAttribute('class', 'ability')
+                    //     e.setAttribute('class', 'ability')
+                    //     if (color === 'red') {
+                    //         h.setAttribute('style', 'color: ' + color)
+                    //     }
+                    //     else if (color === 'yellow') {
+                    //         s.setAttribute('style', 'color: ' + color)
+                    //     }
+                    //     else if (color === 'blue') {
+                    //         e.setAttribute('style', 'color: ' + color)
+                    //     }
+                    //     h.innerText = item.health;
+                    //     td.appendChild(h)
+                    //     s.innerText = item.stamina;
+                    //     td.appendChild(s)
+                    //     e.innerText = item.eitr;
+                    //     td.appendChild(e)
+    
+                    // }
+                    if (column === 'recipe') {
+                        recipeList.map((rItem, rIndex) => {
+                            if (rItem.food_id === item.id) {
+                                let recipe = document.createElement('div');
+                                recipe.innerText = rItem.ingr + " " + rItem.qtt;
+                                td.appendChild(recipe)
+                            }
+                        })
+                    }
+                }
+                tr.appendChild(td)
+            }        
+            tbody.appendChild(tr)
+        });
+    }
+
+    function sort(e) {
+        console.log(e.lastChild.ATTRIBUTE_NODE)
+    }
+    
+</script>
+</html>
