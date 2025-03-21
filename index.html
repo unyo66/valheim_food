@@ -99,7 +99,7 @@
                 if (item[column] !== undefined) {
                     if (column === 'img') {
                         let img = document.createElement('img')
-                        img.src = item[column]
+                        img.src = `img/foods/${item.id}.png`
                         td.appendChild(img)
                     }
                     else if (column === 'duration') {
