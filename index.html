@@ -43,7 +43,7 @@
             justify-content: center;
         }
         table {
-            width: 100%;
+            width: 70%;
         }
         th {
             text-align: left;
@@ -56,7 +56,7 @@
             border: 1px solid #ddd;
             padding: 5px;
         }
-        .inner_th {
+        .inner_th, #erase {
             cursor: pointer;
         }
         .inner_th:hover {
@@ -80,13 +80,15 @@
     </style>
 </head>
 <body id="body-light">
-    <!-- <header>
+    <header>
         <h1>
             발헤임 음식
         </h1>
-    </header> -->
+    </header>
+    <content>
     <table id="table">
         <thead>
+            <th><div class="inner_th" id="inner_th_chk"><div class="inner_text"><button>초기화</button></input></div></div></th>
             <th><div onclick="sort(this)" class="inner_th" id="inner_th_img"><div class="inner_text">그림</div></div></th>
             <th><div onclick="sort(this)" class="inner_th" id="inner_th_name"><div class="inner_text">이름</div><div class="icon icon_updown"></div></div></th>
             <th><div onclick="sort(this)" class="inner_th" id="inner_th_type"><div class="inner_text">포크</div><div class="icon icon_updown"></div></div></th>
@@ -99,15 +101,16 @@
         </thead>
         <tbody id="tbody"></tbody>
     </table>
-    <content>
     </content>
 </body>
 <script>
     const tbody = document.getElementById("tbody");
     let list = itemList;
-    setTable(list);
-
+    // setTable(list);
+    getUrl(list)
     function setTable(itemList) {
+        const params = new URLSearchParams(window.location.search);
+        const bms = params.get('bookmark') ? params.get('bookmark').split("_") : [];
         tbody.textContent = "";
         itemList.forEach((item, index) => {
             let tr = document.createElement('tr');
@@ -134,7 +137,18 @@
                     }
                 }
                 else {
-                    if (column === 'recipe') {
+                    if (column === 'chk') {
+                        const chkBox = document.createElement('input')
+                        chkBox.setAttribute('type', 'checkbox')
+                        chkBox.setAttribute('id', 'chkBox-' + item.id)
+                        chkBox.addEventListener('click', e => setUrl(e))
+                        if (bms.includes(""+item.id)) {
+                            chkBox.setAttribute('checked', 'true')
+                        }
+                        td.appendChild(chkBox)
+                        td.setAttribute('style', 'text-align: center')
+                    }
+                    else if (column === 'recipe') {
                         recipeList.map((rItem, rIndex) => {
                             if (rItem.food_id === item.id) {
                                 let recipe = document.createElement('div');
@@ -196,9 +210,41 @@
             }
         }
 
-        setTable(list);
+        getUrl(list);
     }
 
+    function setUrl (e) {
+        const id = e.target.id.split('chkBox-')[1]
+        const chked = e.target.checked
+        const params = new URLSearchParams(window.location.search);
+        let oldBm = params.get('bookmark') ? params.get('bookmark').split("_") : [];
+        let newBm;
+        if (chked) {
+            newBm = oldBm.concat(id)
+        } else {
+            newBm = oldBm.filter((element) => element !== id);
+        }
+        params.set('bookmark', newBm.join('_'));
+        if (newBm.length === 0) {
+            console.log('delete')
+            params.delete('bookmark')
+        }
+        const newUrl = `${window.location.pathname}?${params.toString()}`;
+        history.replaceState(null, '', newUrl);
+        getUrl ()
+    }
+
+    function getUrl (list) {
+        const params = new URLSearchParams(window.location.search);
+        let bm = params.get('bookmark') ? params.get('bookmark').split("_") : [];
+        if (bm) {
+            const bmSet = new Set(bm);
+            const prioritized = bm.map(id => itemList.find(item => (String)(item.id) === id)).filter(Boolean);
+            const remaining = itemList.filter(item => !bmSet.has((String)(item.id)));
+            list = [...prioritized, ...remaining]
+        }
+        setTable(list);
+    }
 
 </script>
 </html>
