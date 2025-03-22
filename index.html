@@ -88,7 +88,7 @@
     <content>
     <table id="table">
         <thead>
-            <th><div class="inner_th" id="inner_th_chk"><div class="inner_text"><button>초기화</button></input></div></div></th>
+            <th><div class="inner_th" id="inner_th_chk"><div class="inner_text"><button onClick="erase()">초기화</button></input></div></div></th>
             <th><div onclick="sort(this)" class="inner_th" id="inner_th_img"><div class="inner_text">그림</div></div></th>
             <th><div onclick="sort(this)" class="inner_th" id="inner_th_name"><div class="inner_text">이름</div><div class="icon icon_updown"></div></div></th>
             <th><div onclick="sort(this)" class="inner_th" id="inner_th_type"><div class="inner_text">포크</div><div class="icon icon_updown"></div></div></th>
@@ -226,7 +226,6 @@
         }
         params.set('bookmark', newBm.join('_'));
         if (newBm.length === 0) {
-            console.log('delete')
             params.delete('bookmark')
         }
         const newUrl = `${window.location.pathname}?${params.toString()}`;
@@ -246,5 +245,9 @@
         setTable(list);
     }
 
+    function erase () {
+        history.replaceState(null, '', window.location.pathname);
+        getUrl ()
+    }
 </script>
 </html>
